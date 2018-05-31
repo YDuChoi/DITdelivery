@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CDB2000120AD47AB00E599A6 /* DeliveryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2000020AD47AB00E599A6 /* DeliveryTableViewController.swift */; };
-		CDB2FFEF20AD46E000E599A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2FFEE20AD46E000E599A6 /* AppDelegate.swift */; };
-		CDB2FFF120AD46E000E599A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDB2FFF020AD46E000E599A6 /* ViewController.swift */; };
-		CDB2FFF420AD46E000E599A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB2FFF220AD46E000E599A6 /* Main.storyboard */; };
-		CDB2FFF620AD46E000E599A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDB2FFF520AD46E000E599A6 /* Assets.xcassets */; };
-		CDB2FFF920AD46E000E599A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDB2FFF720AD46E000E599A6 /* LaunchScreen.storyboard */; };
+		CDECCE8420BFD16800889D1A /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDECCE7A20BFD16800889D1A /* MyTableViewController.swift */; };
+		CDECCE8520BFD16800889D1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDECCE7B20BFD16800889D1A /* Assets.xcassets */; };
+		CDECCE8620BFD16800889D1A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDECCE7C20BFD16800889D1A /* Info.plist */; };
+		CDECCE8720BFD16800889D1A /* FoodStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDECCE7D20BFD16800889D1A /* FoodStoreTableViewCell.swift */; };
+		CDECCE8820BFD16800889D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDECCE7E20BFD16800889D1A /* LaunchScreen.storyboard */; };
+		CDECCE8920BFD16800889D1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDECCE8020BFD16800889D1A /* AppDelegate.swift */; };
+		CDECCE8A20BFD16800889D1A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDECCE8120BFD16800889D1A /* DetailViewController.swift */; };
+		CDECCE8B20BFD16800889D1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDECCE8220BFD16800889D1A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CDB2000020AD47AB00E599A6 /* DeliveryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryTableViewController.swift; sourceTree = "<group>"; };
 		CDB2FFEB20AD46E000E599A6 /* DITdelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DITdelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CDB2FFEE20AD46E000E599A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CDB2FFF020AD46E000E599A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CDB2FFF320AD46E000E599A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CDB2FFF520AD46E000E599A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CDB2FFF820AD46E000E599A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CDB2FFFA20AD46E000E599A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDECCE7A20BFD16800889D1A /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyTableViewController.swift; path = "../../../UiTableViewController-Test/UiTableViewController Test 02/MyTableViewController.swift"; sourceTree = "<group>"; };
+		CDECCE7B20BFD16800889D1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../UiTableViewController-Test/UiTableViewController Test 02/Assets.xcassets"; sourceTree = "<group>"; };
+		CDECCE7C20BFD16800889D1A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../../UiTableViewController-Test/UiTableViewController Test 02/Info.plist"; sourceTree = "<group>"; };
+		CDECCE7D20BFD16800889D1A /* FoodStoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodStoreTableViewCell.swift; path = "../../../UiTableViewController-Test/UiTableViewController Test 02/FoodStoreTableViewCell.swift"; sourceTree = "<group>"; };
+		CDECCE7F20BFD16800889D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../UiTableViewController-Test/UiTableViewController Test 02/Base.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		CDECCE8020BFD16800889D1A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "../../../UiTableViewController-Test/UiTableViewController Test 02/AppDelegate.swift"; sourceTree = "<group>"; };
+		CDECCE8120BFD16800889D1A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "../../../UiTableViewController-Test/UiTableViewController Test 02/DetailViewController.swift"; sourceTree = "<group>"; };
+		CDECCE8320BFD16800889D1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../UiTableViewController-Test/UiTableViewController Test 02/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +59,14 @@
 		CDB2FFED20AD46E000E599A6 /* DITdelivery */ = {
 			isa = PBXGroup;
 			children = (
-				CDB2FFEE20AD46E000E599A6 /* AppDelegate.swift */,
-				CDB2FFF020AD46E000E599A6 /* ViewController.swift */,
-				CDB2FFF220AD46E000E599A6 /* Main.storyboard */,
-				CDB2FFF520AD46E000E599A6 /* Assets.xcassets */,
-				CDB2FFF720AD46E000E599A6 /* LaunchScreen.storyboard */,
-				CDB2FFFA20AD46E000E599A6 /* Info.plist */,
-				CDB2000020AD47AB00E599A6 /* DeliveryTableViewController.swift */,
+				CDECCE8020BFD16800889D1A /* AppDelegate.swift */,
+				CDECCE7B20BFD16800889D1A /* Assets.xcassets */,
+				CDECCE8120BFD16800889D1A /* DetailViewController.swift */,
+				CDECCE7D20BFD16800889D1A /* FoodStoreTableViewCell.swift */,
+				CDECCE7C20BFD16800889D1A /* Info.plist */,
+				CDECCE7E20BFD16800889D1A /* LaunchScreen.storyboard */,
+				CDECCE8220BFD16800889D1A /* Main.storyboard */,
+				CDECCE7A20BFD16800889D1A /* MyTableViewController.swift */,
 			);
 			path = DITdelivery;
 			sourceTree = "<group>";
@@ -99,6 +103,7 @@
 				TargetAttributes = {
 					CDB2FFEA20AD46E000E599A6 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,9 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB2FFF920AD46E000E599A6 /* LaunchScreen.storyboard in Resources */,
-				CDB2FFF620AD46E000E599A6 /* Assets.xcassets in Resources */,
-				CDB2FFF420AD46E000E599A6 /* Main.storyboard in Resources */,
+				CDECCE8820BFD16800889D1A /* LaunchScreen.storyboard in Resources */,
+				CDECCE8620BFD16800889D1A /* Info.plist in Resources */,
+				CDECCE8520BFD16800889D1A /* Assets.xcassets in Resources */,
+				CDECCE8B20BFD16800889D1A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,29 +145,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDB2000120AD47AB00E599A6 /* DeliveryTableViewController.swift in Sources */,
-				CDB2FFF120AD46E000E599A6 /* ViewController.swift in Sources */,
-				CDB2FFEF20AD46E000E599A6 /* AppDelegate.swift in Sources */,
+				CDECCE8920BFD16800889D1A /* AppDelegate.swift in Sources */,
+				CDECCE8420BFD16800889D1A /* MyTableViewController.swift in Sources */,
+				CDECCE8720BFD16800889D1A /* FoodStoreTableViewCell.swift in Sources */,
+				CDECCE8A20BFD16800889D1A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDB2FFF220AD46E000E599A6 /* Main.storyboard */ = {
+		CDECCE7E20BFD16800889D1A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CDB2FFF320AD46E000E599A6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CDB2FFF720AD46E000E599A6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDB2FFF820AD46E000E599A6 /* Base */,
+				CDECCE7F20BFD16800889D1A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CDECCE8220BFD16800889D1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDECCE8320BFD16800889D1A /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -278,11 +285,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DITdelivery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dit.ac.kr.DITdelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DITdelivery/DITdelivery-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,11 +302,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DITdelivery/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dit.ac.kr.DITdelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DITdelivery/DITdelivery-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
